@@ -1,4 +1,4 @@
-import { createTestDbConnection } from '../utils';
+import { createTestDbConnection } from '../utils/createTestDbConnection';
 import { Collection, Db } from 'mongodb';
 
 describe('insert', () => {
